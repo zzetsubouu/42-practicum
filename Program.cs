@@ -10,14 +10,14 @@ namespace _42_practicum
     {
         static void Main(string[] args)
         {
-            ClassCounter counter = new ClassCounter();]
+            ClassCounter counter = new ClassCounter();
             Handler_1 handler_1 = new Handler_1();
             Handler_2 handler_2 = new Handler_2();
 
-            counter.Count();
+            //counter.Count();
+            counter.onCount += counter.Message;
             counter.onCount += handler_1.Message;
             counter.onCount += handler_2.Message;
-            counter.onCount += counter.Message;
             counter.Count();
             Console.ReadKey();
         }
