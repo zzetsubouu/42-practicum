@@ -24,12 +24,12 @@ namespace _42_practicum
         }
         public void Method3()
         {
-            for (int i = 0; i < 11; i++)
-            {
+            //for (int i = 0; i < 11; i++)
+            //{
 
-            }
-            Random rnd = new Random();
-            int eventChoose = rnd
+            //}
+            //Random rnd = new Random();
+            //int eventChoose = rnd
         }
     }
 }
