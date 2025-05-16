@@ -43,9 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassCounter.cs" />
-    <Compile Include="Handler_1.cs" />
-    <Compile Include="Handler_2.cs" />
+    <Compile Include="Barrier.cs" />
+    <Compile Include="Man.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
